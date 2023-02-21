@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* width: 100%; */
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>ON & OFF the light using Button</h1>
+<img id="bl" src='./off-light-bulb.jpg' style="width:100px">
+<span>
+<button onClick="document.getElementById('bl').src='./on-light-bulb.jpg'">ON</button>
+<button onClick="document.getElementById('bl').src='./off-light-bulb.jpg'"> OFF</button>
+</span>
+</body>
+</html>
